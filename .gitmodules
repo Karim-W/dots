@@ -1,3 +1,9 @@
 [submodule "common/alacritty"]
 	path = common/alacritty
 	url = git@github.com:Karim-W/alacritty-config.git
+[submodule "common/nvim"]
+	path = common/nvim
+	url = git@github.com:Karim-W/vimfig.git
+[submodule "common/tmux"]
+	path = common/tmux
+	url = git@github.com:Karim-W/tmux-config.git
