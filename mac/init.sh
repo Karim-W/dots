@@ -87,7 +87,6 @@ check_or_install "Zsh" zsh
 check_or_install "tmux" tmux
 check_or_install "Neovim" nvim
 check_or_install "Ghostty" ghostty
-check_or_install "Spaceship" spaceship
 
 echo ""
 
@@ -104,6 +103,7 @@ if [ ${#missing[@]} -eq 0 ]; then
 
   mkdir -p ~/.config
 
+  cp ../spaceship.toml ~/.config/spaceship.toml
   cp -r ../common/nvim ~/.config
   cp -r ../common/tmux ~/.config
   cp -r ../common/ghostty ~/.config
