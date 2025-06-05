@@ -1,0 +1,3 @@
+[submodule "common/alacritty"]
+	path = common/alacritty
+	url = git@github.com:Karim-W/alacritty-config.git
